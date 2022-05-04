@@ -14,6 +14,47 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <main class="container">
+      <div class="left">
+        <figure class="left__logo--img">🌊️</figure>
+        <h1 class="left__logo--text">Ocean Maze</h1>
+        <footer>Video from <a href="www.coverr.co">coverr</a></footer>
+      </div>
+      <div class="right">
+        <p class="right__text">
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. <br />
+          Sign up <em>now</em> to get started. <br /><br />
+          You <em>know</em> you want to.
+        </p>
+
+        <form action="#" method="post">
+          <label for="fname">First name</label>
+          <input type="text" name="fname" id="fname" />
+
+          <label for="lname">Last name</label>
+          <input type="text" name="lname" id="lname" />
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+
+          <label for="phone">Phone number</label>
+          <input type="text" name="phone" id="phone" />
+
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+          <span class="error">* Passwords do not match</span>
+
+          <label for="password2">Confirm Password</label>
+          <input type="password" name="password2" id="password2" />
+
+          <button type="submit" class="btn">Create Account</button>
+        </form>
+
+        <p class="login">Already have an account? <a href="#">Log in</a></p>
+      </div>
+    </main>
+
     <script src="script.js"></script>
   </body>
 </html>
